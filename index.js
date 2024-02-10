@@ -19,7 +19,7 @@ const userRouter = require('./routes/User');
 const authRouter = require('./routes/Auth');
 const cartRouter = require('./routes/Cart');
 const orderRouter = require('./routes/Order');
-const { User } = require('./model/user');
+const { User } = require('./model/User');
 const { isAuth, sanitizeUser, cookieExtractor } = require('./services/common');
 const path = require('path');
 
